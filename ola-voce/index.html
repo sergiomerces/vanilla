@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa: Olá você!</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <div>
+        <h1>Programa Olá Você!</h1>
+        <form>
+            <input type="text" name="name" id="name" class="name" placeholder="Digite seu nome">
+            <input type="button" value="Enviar" id="button" class="button" onclick="olaVoce()">
+        </form>
+        <p id="resposta" class="answer"></p>
+    </div>
+    <div>
+        <h1>Qual a sua cidade?</h1>
+        <form>
+            <input type="text" name="cidade" id="inpCidade" class="name" placeholder="Digite sua cidade">
+            <input type="button" value="Enviar" id="btnCidade" class="button">
+        </form>
+        <p id="pCidade" class="answer"></p>
+    </div>
+    <div>
+        <h1>Qual a sua linguagem favorita?</h1>
+        <form>
+            <input type="text" name="cidade" id="inpLinguagem" class="name" placeholder="Digite sua cidade">
+            <input type="button" value="Enviar" id="btnLinguagem" class="button">
+        </form>
+        <p id="pLinguagem" class="answer"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
