@@ -9,8 +9,24 @@
 </head>
 <body>
     <main>
-        <h1>Pograma Situação do Aluno</h1>
-        
+        <h1>Programa Situação do Aluno</h1>
+        <p>
+            <label for="nome">Nome do Aluno: </label>
+            <input type="text" name="nome" id="nome" placeholder="Nome completo ">
+        </p>
+        <p>
+            <label for="nota1">1ª Nota: </label>
+            <input type="text" name="nota1" id="nota1" placeholder="1ª prova">
+        </p>
+        <p>
+            <label for="nota2">2ª Nota: </label>
+            <input type="text" name="nota2" id="nota2" placeholder="2ª prova">
+        </p>
+        <p id="control">
+            <button id="botao">Exibir Média e Situação</button>
+        </p>
+        <p id="outMedia"></p>
+        <p id="outSituacao"></p>
     </main>
     <script src="./script.js"></script>
 </body>
