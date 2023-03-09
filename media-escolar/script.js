@@ -12,6 +12,11 @@ function exibirMedia() {
         outSituacao.textContent = `Parabéns ${nome}! Você foi Aprovado(a)!`;
         outMedia.style.color = 'blue';
         outSituacao.style.color = 'blue';
+    } else if(media >= 4.0) {
+        outMedia.textContent = `Médias das notas: ${media.toFixed(1)}`;
+        outSituacao.textContent = `Parabéns ${nome}! Você está de exame!`;
+        outMedia.style.color = 'green';
+        outSituacao.style.color = 'green';
     } else {
         outMedia.textContent = `Médias das notas: ${media.toFixed(1)}`;
         outSituacao.textContent = `Lamentamos ${nome}! Você foi Reprovado(a)!`;
