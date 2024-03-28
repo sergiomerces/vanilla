@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dividir conta</title>
+</head>
+<body>
+    <h1>Dividir conta...</h1>
+    <script>
+        const valorConta = Number(prompt('Informe o valor da conta:'));
+        const numeroPessoas = Number(prompt('Número de pessoas:'));
+        const valorPorPessoa = valorConta / numeroPessoas;
+        alert(`valor do jantar: R$ ${valorConta.toFixed(2)}\n
+        Pessoas: ${numeroPessoas}\n
+        Valor por pessoa: R$ ${valorPorPessoa}`);
+    </script>
+</body>
+</html>
