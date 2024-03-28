@@ -1,0 +1,20 @@
+<!--Construir uma aplicação leia um número e informe seus vizinhos-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informar Vizinhos</title>
+</head>
+<body>
+    <h1>Informar os números vizinhos:</h1>
+    <script>
+        let numero = Number(prompt('Informe um número: ', 'Digite um número inteiro'));
+        
+        let antecessor = numero - 1;
+        let sucessor = numero + 1;
+
+        alert(numero + '\n' + antecessor + ' e ' + sucessor);
+    </script>
+</body>
+</html>
