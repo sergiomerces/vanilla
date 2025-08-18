@@ -119,6 +119,7 @@ alert(`Bem-vindo ${nome}`);
 ## Integração com HTML
 
 As boas práticas prezam pela captura de dados do usuário através de elementos de formulários e a ação de processamento ocorre a partir de um evento como o clique de um botão. Outra boa prática é o descoplamento do código do frontend, onde cada arquivo tem seu papel, html a estrutura semântica, css a formatação de estilos e o javascript o comportamento de interação com o usuário.
+A tag **script** pode ser carregada no **head** ou no **body** do HTML, contudo a recomendação para permitir que o usuário consiga ao menos carregar os elementos da página caso a execução do script tenha algum bug qe interrompa a continuidade, ela pode ser escrita antes do fechamento do **body**.
 
 Arquivo HTML
 
@@ -146,4 +147,13 @@ function dizerOla(){
 const btnMostrar = document.getElementById('mostrar');
 //btnMostrar.onclick = dizerOla;
 btnMostrar.addEventListener('click', dizerOla);
+```
+
+## Método getElementById()
+
+Esse método permite referenciar qualquer elemento html que possua um id atribuído, assim podemos manipulá-lo, alterando seu estilo, capturando seu valor ou inserindo um valor.
+
+```
+let inpName = document.getElementById("nome");
+let nome = inpNome.value;
 ```
