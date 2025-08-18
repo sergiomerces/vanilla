@@ -72,19 +72,19 @@ Para receber dados do usuário podemos receber pelo comando do método _prompt()
 
 ## Tipos de dados
 
-1. string
-2. number
-3. boolean
-4. array
-5. object
-6. function
+1. string - tipo texto aceita caracteres alfanuméricos e especiais, sempre declarado entre aspas ou crases
+2. number - tipo numérico inteiro ou decimal
+3. boolean - tipo lógico verdadeiro ou falso
+4. array - lista de elementos com índice
+5. object - coleção de dados que podem ser do mesmo ou tipos diferentes
+6. function - bloco de código
 7. null
-8. undefined
+8. undefined - variável que não recebeu atribuição de valor
 9. nan
 
 ### Conversão de string para number
 
-Todo dado de entrada de usuário capturado através do **prompt** vem como tipo **string**. Para converter uma string em número podemos usar o método mais adequado:
+Todo dado de entrada de usuário capturado através do **prompt** vem como tipo **string** quando se trata de adição, porque a linguagem entende como uma operacção de concatenação. Para converter uma string em número podemos usar o método mais adequado:
 
 ```
 const valorConta = Number(prompt('Informe o valor da conta:'));
@@ -97,7 +97,8 @@ O **parseInt** converte a string para tipo **int** (inteiro) e **parseFloat** co
 
 ### Fixar casa decimal
 
-Para fixar o número de casas decimais de um número tipo **float** basta usar o método **toFixed()**
+Para fixar o número de casas decimais de um número tipo **float** basta usar o método **toFixed()**.
+Em Javascript o separador de casa decimal padrão é o **ponto (.)**.
 
 ```
 alert(`valor do jantar: R$ ${valorConta.toFixed(2)}`);
