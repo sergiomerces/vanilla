@@ -156,4 +156,6 @@ Esse m√©todo permite referenciar qualquer elemento html que possua um id atribu√
 ```
 let inpName = document.getElementById("nome");
 let nome = inpNome.value;
+
+let nome = document.getElementById("nome").value;
 ```
