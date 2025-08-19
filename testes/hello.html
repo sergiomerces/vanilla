@@ -5,20 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello</title>
 </head>
-<body>
+<body id="corpo">
     <h2 id="outMessage"></h2>
-    <script>
-        function sayHello(name){
-            var name = prompt('Qual o seu nome?');
-
-            while(name === ''){
-            alert('Por favor, diga seu nome!');
-            }
-
-            document.getElementById('outMessage').textContent = `Que bom receber você aqui, ${name}`;
-        }
-
-            sayHello();
-    </script>
+    <script src="./hello.js" defer></script>
 </body>
 </html>

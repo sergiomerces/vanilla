@@ -154,6 +154,7 @@ btnMostrar.addEventListener('click', dizerOla);
 Esse método permite referenciar qualquer elemento html que possua um id atribuído, assim podemos manipulá-lo, alterando seu estilo, capturando seu valor ou inserindo um valor.
 
 ```
+//captura
 let inpName = document.getElementById("nome");
 let nome = inpNome.value;
 
@@ -175,3 +176,15 @@ let nome = document.getElementById("nome").value;
 - **innerHTML** insere texto renderizando o HTML
 
 - **value** seleciona o conteúdo do elemento de formulários
+
+## Rotinas de tratamento de eventos HTML
+
+Para chamar a função do arquivo Javascript no HTML podemos chamar o evento diretamente no elemento:
+
+```
+<input> type="button" value="Mostrar" onclick="sayHello()";
+```
+
+## DOM
+
+Quand usamos elementos **DOM - Document Object Model**, o atributo **defer** executa o scrpt de forma assícrona, permitindo que todos os elementos da árvore DOM seja renderizados antes de sua execução evitando erros de travamento ou falhas de processamento.
