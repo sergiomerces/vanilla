@@ -159,3 +159,19 @@ let nome = inpNome.value;
 
 let nome = document.getElementById("nome").value;
 ```
+
+### Objeto, método e propriedade
+
+- **Objeto** - representa uma instância de uma classe
+- **Método** - representa uma instrução ou um conjunto de instruções que executam uma tarefa
+- **Propriedade** - representa uma característica (atributo) de um objeto
+
+### Porpriedades de escrita
+
+- **textContent** insere texto no elemento
+
+- **innerText** insere texto como textContent
+
+- **innerHTML** insere texto renderizando o HTML
+
+- **value** seleciona o conteúdo do elemento de formulários
