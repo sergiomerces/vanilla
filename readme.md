@@ -146,7 +146,9 @@ function dizerOla(){
 
 const btnMostrar = document.getElementById('mostrar');
 //btnMostrar.onclick = dizerOla;
+
 btnMostrar.addEventListener('click', dizerOla);
+
 ```
 
 ## Método getElementById()
@@ -188,3 +190,31 @@ Para chamar a função do arquivo Javascript no HTML podemos chamar o evento dir
 ## DOM
 
 Quand usamos elementos **DOM - Document Object Model**, o atributo **defer** executa o scrpt de forma assícrona, permitindo que todos os elementos da árvore DOM seja renderizados antes de sua execução evitando erros de travamento ou falhas de processamento.
+
+## Operadores aritméticos e funções matemáticas
+
+(+) soma
+
+(\*) subtração
+
+(\*) multiplicação
+
+(/) divisão
+
+(\*\*) exponenciação
+
+(%) módulo
+
+Math.abs(num) retorna o valor absoluto
+
+Math.ceil(num) arredonda para cima
+
+Math.floor(num) arredonda para baixo
+
+Math.pow(base, expoente) retorna a base elevada ao expoente
+
+Math.random() retorna um número aleatório entre 0 e 1
+
+Math.round(num) arredonda para o interiro mais próximo
+
+Math.sqrt(num) retorna a raiz quadrada

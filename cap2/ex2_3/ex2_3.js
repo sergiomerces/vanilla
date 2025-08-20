@@ -15,4 +15,5 @@ function mostrarPromocao(){
 }
 
 const btnPromocao = document.getElementById('btnPromocao');
-btnPromocao.addEventListener('click', mostrarPromocao);
+//btnPromocao.addEventListener('click', mostrarPromocao);
+btnPromocao.onclick = mostrarPromocao;

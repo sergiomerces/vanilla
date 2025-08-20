@@ -4,7 +4,6 @@ function converterDuracao(){
     const outTitulo = document.getElementById('outTitulo');
     const outResposta = document.getElementById('outResposta');
 
-
     const duracao = Number(inDuracao.value);
     const horas = Math.floor(duracao / 60);
     const minutos = duracao % 60;
