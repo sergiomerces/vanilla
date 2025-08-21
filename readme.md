@@ -191,7 +191,7 @@ Para chamar a função do arquivo Javascript no HTML podemos chamar o evento dir
 
 Quand usamos elementos **DOM - Document Object Model**, o atributo **defer** executa o scrpt de forma assícrona, permitindo que todos os elementos da árvore DOM seja renderizados antes de sua execução evitando erros de travamento ou falhas de processamento.
 
-## Operadores aritméticos e funções matemáticas
+### Operadores aritméticos e funções matemáticas
 
 (+) soma
 
@@ -218,3 +218,45 @@ Math.random() retorna um número aleatório entre 0 e 1
 Math.round(num) arredonda para o interiro mais próximo
 
 Math.sqrt(num) retorna a raiz quadrada
+
+## Estruturas condicionais
+
+### if... else
+
+```
+if(condicao){
+    //verdadeiro
+} else {
+    //falso
+}
+```
+
+Aninhamento de if
+
+```
+if(condicao1){
+    //verdadeiro
+} else if(condicao2){
+    //verdadeiro
+} else {
+    //falso
+}
+```
+
+### Operadores relacionais
+
+( == ) igualdade - verifica somente valor
+
+( === ) estritamente igual - verifica valor e tipo
+
+( != ) estritamente diferente - somente valor
+
+( !== ) não coincidente - verifica valor e tipo
+
+( > ) maior
+
+( < ) menor
+
+( >= ) maior ou igual
+
+( <= ) menor ou igual
