@@ -18,8 +18,12 @@ function exibirSituacao(){
 
     if(media >= 7){
         situacao.textContent = `Parabéns ${inNome} Aprovado(a)`;
+        situacao.style.color = 'blue';
+    } else if(media >= 4) {
+        situacao.textContent = `Parabéns ${inNome} você está de exame!`;
         situacao.style.color = 'green';
-    } else {
+    }
+    else {
         situacao.textContent = `${inNome} você foi Reprovado(a)`;
         situacao.style.color = 'red';
     }

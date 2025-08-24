@@ -1,0 +1,14 @@
+* {
+    background-color: #ffffff;
+    color:#000000;
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+h2 {
+    border-bottom-style: inset;
+}

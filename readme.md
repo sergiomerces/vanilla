@@ -260,3 +260,22 @@ if(condicao1){
 ( >= ) maior ou igual
 
 ( <= ) menor ou igual
+
+### if com operador ternário
+
+```
+(condição) ? verdadeiro : falso;
+
+(tempo % 15 !== 0) ? total = total + valor : total = total;
+
+```
+
+### Operadores Lógicos
+
+Para definir mais de umda condição em um programa, devemos utilizar os operadores lógicos:
+
+( ! ) not - indica negação, inverte resultado de uma operação
+
+( && ) and - indica conjunção, retorna verdadeiro se todas as premissas forem verdadeiras
+
+( || ) or - indica disjunção, retorna verdadeiro se uma das premissas for verdadeira
