@@ -270,6 +270,23 @@ if(condicao1){
 
 ```
 
+### Casos de uso if
+
+Validação de campo com isNan
+
+```
+if(altura === 0 || isNaN(altura)
+```
+
+Validação de campo preenchido
+
+```
+const radMasculino = document.getElementById('radMasculino');
+let masculino = radMasculino.checked;
+
+if(masculino)
+```
+
 ### Operadores Lógicos
 
 Para definir mais de umda condição em um programa, devemos utilizar os operadores lógicos:
@@ -279,3 +296,21 @@ Para definir mais de umda condição em um programa, devemos utilizar os operado
 ( && ) and - indica conjunção, retorna verdadeiro se todas as premissas forem verdadeiras
 
 ( || ) or - indica disjunção, retorna verdadeiro se uma das premissas for verdadeira
+
+### Focando um campo de formulário para preenchimento
+
+Para que o campo fique destacado para preenchimento basta referenciar o elemento DOM e usar o método Focus().
+
+```
+inAltura.focus();
+```
+
+### Capturando botões de radio
+
+Como a propriedade .value captura o conteúdo de inputs, a propriedade .checked captura o estado do botão de radio.
+
+```
+let nome = inNome.value;
+let masculino = radMasculino.checked;
+let feminino = radFeminino.checked;
+```

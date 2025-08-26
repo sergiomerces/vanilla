@@ -20,7 +20,7 @@ function calcularPeso(){
 
     }
 
-    if(altura == 0 || isNaN(altura)){
+    if(altura === 0 || isNaN(altura)){
 
         alert('Por favor, informe a altura corretamente...');
         inAltura.focus();
@@ -37,6 +37,8 @@ function calcularPeso(){
     }
 
     outResposta.innerHTML = `${nome} seu peso ideal ${pesoIdeal.toFixed(3)} kg.`;
+    outResposta.style.fontSize = '20px';
+    outResposta.style.fontStyle = 'bolder';
 
 }
 
